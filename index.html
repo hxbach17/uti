@@ -1,18 +1,121 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <title>Website giới thiệu</title>
   <meta charset="UTF-8">
+  <title>UTI Clone Landing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0b1220;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 60px;
+      background: #0f1a33;
+      position: sticky;
+      top: 0;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: #4da3ff;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 120px 20px;
+      background: linear-gradient(120deg,#0f1a33,#1b2b55);
+    }
+
+    .hero h1 {
+      font-size: 40px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: #4da3ff;
+      color: white;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .section {
+      padding: 60px;
+      text-align: center;
+    }
+
+    .grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #111c36;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0f1a33;
+      margin-top: 50px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align:center; padding:50px">
 
-  <h1>🚀 Công ty của anh yêu</h1>
-  <p>Dịch vụ vận tải - logistics - nhanh chóng & uy tín</p>
+<body>
 
-  <h3>📞 Liên hệ</h3>
-  <p>Hotline: 09xx xxx xxx</p>
-  <p>Email: contact@company.com</p>
+<header>
+  <div class="logo">UTI STYLE</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Giải pháp công nghệ & phần mềm doanh nghiệp</h1>
+  <p>Xây dựng hệ thống digital, website & automation cho doanh nghiệp</p>
+  <button class="btn">Liên hệ ngay</button>
+</section>
+
+<section class="section">
+  <h2>Dịch vụ</h2>
+  <div class="grid">
+    <div class="card">Website Development</div>
+    <div class="card">Software Solution</div>
+    <div class="card">Digital Marketing</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Về chúng tôi</h2>
+  <p>Chúng tôi cung cấp giải pháp công nghệ giúp doanh nghiệp tăng trưởng nhanh và bền vững.</p>
+</section>
+
+<footer>
+  © 2026 Demo Landing Page
+</footer>
 
 </body>
 </html>
